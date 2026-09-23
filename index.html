@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Тренажёрка на Набережной</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div id="top"></div>
+    <div class="page">
+      <header>
+        <video class="hero-video" autoplay muted loop playsinline>
+          <source src="video/4383403-hd_1920_1080_30fps.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>Тренажёрка на Набережной</h1>
+          <p class="intro">
+            Спортивное пространство для активного режима, тренировок и
+            восстановления.
+          </p>
+          <a class="hero-button" href="#directions">Смотреть направления</a>
+        </div>
+      </header>
+      <nav class="nav-site">
+        <input class="menu-check" id="menu-check" type="checkbox" />
+        <label class="burger" for="menu-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <div class="nav-menu">
+          <a href="#directions">Главная</a>
+          <div class="nav-item">
+            <a href="#">Направления</a>
+            <div class="submenu">
+              <a href="#">Тренажёрный зал</a>
+              <a href="#">Кардиозона</a>
+              <a href="#">Групповые занятия</a>
+              <a href="#">Йога и растяжка</a>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a href="#">Клуб</a>
+            <div class="submenu">
+              <a href="#effects">Атмосфера</a>
+              <a href="#schedule">Расписание</a>
+              <a href="#info">Информация</a>
+            </div>
+          </div>
+
+          <a href="#contacts">Контакты</a>
+
+          <label class="theme-control">
+            <input class="theme-check" type="checkbox" />
+            Светлая тема
+          </label>
+        </div>
+      </nav>
+      <main>
+        <section class="directions" id="directions">
+          <h2>Направления тренировок</h2>
+          <p class="directions-text">
+            Тренажёрка на Набережной объединяет основные направления тренировок
+            для тех, кто хочет развивать силу, выносливость, гибкость и
+            поддерживать активный режим.
+          </p>
+
+          <div class="cards">
+            <article class="card">
+              <div class="card-top">
+                <div class="number">1</div>
+                <h3>Тренажёрный зал</h3>
+              </div>
+              <p>
+                Зона для силовых тренировок, работы с тренажёрами и свободными
+                весами.
+              </p>
+              <div class="tag">Сила</div>
+            </article>
+            <article class="card">
+              <div class="card-top">
+                <div class="number">2</div>
+                <h3>Кардиозона</h3>
+              </div>
+              <p>
+                Беговые дорожки, велотренажёры и оборудование для развития
+                выносливости.
+              </p>
+              <div class="tag">Выносливость</div>
+            </article>
+            <article class="card">
+              <div class="card-top">
+                <div class="number">3</div>
+                <h3>Групповые занятия</h3>
+              </div>
+              <p>
+                Тренировки в группе для тех, кому важны ритм, поддержка и общая
+                динамика.
+              </p>
+              <div class="tag">Команда</div>
+            </article>
+            <article class="card">
+              <div class="card-top">
+                <div class="number">4</div>
+                <h3>Йога и растяжка</h3>
+              </div>
+              <p>
+                Занятия для гибкости, восстановления, баланса и снятия
+                напряжения.
+              </p>
+              <div class="tag">Баланс</div>
+            </article>
+            <article class="card">
+              <div class="card-top">
+                <div class="number">5</div>
+                <h3>Функциональный тренинг</h3>
+              </div>
+              <p>
+                Комплексные упражнения на силу, координацию, скорость и работу
+                всего тела.
+              </p>
+              <div class="tag">Активность</div>
+            </article>
+            <article class="card">
+              <div class="card-top">
+                <div class="number">6</div>
+                <h3>Персональные занятия</h3>
+              </div>
+              <p>
+                Индивидуальная работа с тренером под цель, уровень подготовки и
+                режим.
+              </p>
+              <div class="tag">Индивидуально</div>
+            </article>
+          </div>
+        </section>
+
+        <section class="effects" id="effects">
+          <h2>Атмосфера Тренажёрки</h2>
+          <div class="effect-gallery">
+            <div class="effect-card effect-card-1">
+              <span>01</span>
+              <h3>Энергия движения</h3>
+              <p>
+                Динамичные тренировки помогают поддерживать активный ритм и
+                развивать выносливость.
+              </p>
+            </div>
+            <div class="effect-card effect-card-2">
+              <span>02</span>
+              <h3>Сила и контроль</h3>
+              <p>
+                Силовые упражнения формируют технику, уверенность и устойчивый
+                прогресс.
+              </p>
+            </div>
+            <div class="effect-card effect-card-3">
+              <span>03</span>
+              <h3>Баланс и восстановление</h3>
+              <p>
+                Растяжка, йога и спокойные занятия помогают восстановиться после
+                нагрузки.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="form" id="form">
+          <h2>Записаться на тренировку:</h2>
+          <form>
+            <label for="name">ФИО</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Введите ФИО"
+              required
+            />
+            <label for="phone">Номер телефона</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+7 (___) ___-__-__"
+              required
+            />
+            <label for="abonement">Выберите тему заявки:</label>
+            <select id="abonement" name="abonement">
+              <option>-- не выбрано --</option>
+              <option>Абонемент в тренажёрный зал</option>
+              <option>Запись в группу йоги</option>
+              <option>Запись в группу пилатес</option>
+              <option>Индивидуальные занятия с тренером</option>
+            </select>
+            <label for="comment">Комментарий</label>
+            <textarea
+              id="comment"
+              name="comment"
+              placeholder="Укажите удобное время"
+            ></textarea>
+            <div class="agree">
+              <input type="checkbox" id="agree" name="agree" required />
+              <label for="agree">Согласен на обработку заявки</label>
+            </div>
+            <button type="submit">Отправить заявку</button>
+          </form>
+        </section>
+      </main>
+      <aside>
+        <div id="info">
+          <h4 class="aside-section-title">Информация</h4>
+          <ul>
+            <li><b>Формат:</b> очные занятия</li>
+            <li><b>Уровень:</b> начальный и средний</li>
+            <li><b>Занятия:</b> индивидуальные и групповые</li>
+            <li><b>Цель:</b> сила, выносливость, гибкость</li>
+            <li><b>Доступ:</b> по предварительной записи</li>
+          </ul>
+          <a href="#form" class="cta-button">Записаться на тренировку</a>
+        </div>
+        <div class="aside-actions">
+          <div class="schedule" id="schedule">
+            <h4 class="aside-section-title">Ближайшие занятия</h4>
+            <ul>
+              <li>Понедельник — силовая тренировка и кардиозона.</li>
+              <li>Среда — групповые занятия и функциональный тренинг.</li>
+              <li>Пятница — йога и пилатес.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="aside-section trainers-section">
+          <h4 class="aside-section-title">Наши тренеры</h4>
+          <div class="trainers-list">
+            <div class="trainer-card">
+              <div
+                class="trainer-avatar-placeholder"
+                style="background-image: url(img/1.webp)"
+              ></div>
+              <div class="trainer-info">
+                <span class="trainer-name">Александр Варганов</span>
+                <span class="trainer-specialty">Силовой тренинг, Кроссфит</span>
+              </div>
+            </div>
+            <div class="trainer-card">
+              <div
+                class="trainer-avatar-placeholder"
+                style="background-image: url(img/2.webp)"
+              ></div>
+              <div class="trainer-info">
+                <span class="trainer-name">Елена Митина</span>
+                <span class="trainer-specialty">Стретчинг, Пилатес</span>
+              </div>
+            </div>
+            <div class="trainer-card">
+              <div
+                class="trainer-avatar-placeholder"
+                style="background-image: url(img/3.webp)"
+              ></div>
+              <div class="trainer-info">
+                <span class="trainer-name">Андрей Ким</span>
+                <span class="trainer-specialty">Инструктор йоги</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="aside-section reviews-section">
+          <h4 class="aside-section-title">Отзывы клиентов</h4>
+          <div class="reviews-list">
+            <div class="review-card">
+              <div class="review-header">
+                <span class="review-author">Дмитрий Г.</span>
+                <span class="review-rating">★★★★★</span>
+              </div>
+              <p class="review-text">
+                Отличный зал! Современное оборудование и очень чистые
+                раздевалки. Тренеры всегда подскажут и помогут.
+              </p>
+            </div>
+            <div class="review-card">
+              <div class="review-header">
+                <span class="review-author">Анна С.</span>
+                <span class="review-rating">★★★★★</span>
+              </div>
+              <p class="review-text">
+                Хожу на групповые занятия к Елене. Атмосфера супер, тренировки
+                пролетают незаметно, а результат уже заметен!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="aside-contacts">
+          <div class="contact-item">
+            <span class="contact-label">Режим работы:</span>
+            <span class="contact-value">Ежедневно: 07:00 – 23:00</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Телефон:</span>
+            <a href="tel:+78005553535" class="contact-value"
+              >+7 (800) 555-35-35</a
+            >
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Эл. почта:</span>
+            <a href="email:naberezhnaya_tren@example.ru" class="contact-value"
+              >naberezhnaya_tren@example.ru</a
+            >
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Адрес:</span>
+            <span class="contact-value">Набережная ул., д. 10</span>
+          </div>
+        </div>
+      </aside>
+      <footer id="contacts">
+        Тренажёрка на Набережной · Макет страницы · 2026
+      </footer>
+    </div>
+    <a href="#top" class="back-to-top" aria-label="Наверх">△</a>
+  </body>
+</html>
