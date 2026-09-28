@@ -585,6 +585,11 @@ form {
   color: #d6d6e0;
   font-size: 18px;
 }
+#name::placeholder,
+#phone::placeholder,
+#comment::placeholder {
+  color: #72727d;
+}
 #agree {
   vertical-align: middle;
   width: auto;
